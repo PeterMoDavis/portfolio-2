@@ -1,0 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+a img {
+  transition: all 0.5s;
+}
+
+a img:hover {
+  filter: grayscale(75%);
+}
