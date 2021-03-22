@@ -1,14 +1,58 @@
+:root {
+  --dark-mode: all 2s;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  transition: var(--dark-mode);
+}
+
+#dark-mode {
+  transition: var(--dark-mode);
+}
+
+nav {
+  transition: var(--dark-mode);
+}
+
+h4 {
+  transition: var(--dark-mode);
+}
+p {
+  transition: var(--dark-mode);
+}
+h7 {
+  transition: var(--dark-mode);
 }
 a img {
+  filter: brightness(80%);
   transition: all 0.5s;
 }
 
 a img:hover {
-  filter: grayscale(75%);
+  filter: brightness(100%);
+}
+
+.clickable-icons {
+  color: black;
+  transition: filter 0.5s;
+}
+
+.clickable-icons:hover {
+  filter: opacity(50%);
+}
+
+#home {
+  display: block;
+  font-size: 12px;
+  margin-top: 0;
+}
+
+.repo {
+  color: orange;
+  margin: bottom solid orange;
 }

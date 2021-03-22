@@ -41,8 +41,10 @@
                 </div>
             </div>
         </nav>
-
-        <img class="img-fluid mt-3 " src="./assets/images/moss.jpg" alt="moss with dew on it.">
+        <d class="container button-container d-flex justify-content-center">
+            <button id="dark-mode" class="btn btn-sm btn-dark mt-3">DARK MODE</button>
+        </d>
+        <img class="img-fluid mt-3 " id="moss" src="./assets/images/moss.jpg" alt="moss with dew on it.">
     </header>
     <div class="container mt-3" id="about-me">
         <div class="row">
@@ -50,10 +52,16 @@
                 <h4 class="border-bottom pb-2">About Me</h4>
             </div>
             <div class="col-12 col-md-8">
-                Former musician, stay-at-home dad and recent graduate of UPenn Full Stack Bootcamp. Proficient in HTML,
-                CSS, Javascript, Git, Bootstrap, Logic Pro X, Pixelmator playing the banjo and much more. Self-learned
-                front end web development for one year prior to bootcamp for a deeper understanding. Has bachelors in
-                English from Temple University.
+                <p>
+                    Former musician, stay-at-home dad and recent graduate of UPenn Full Stack Bootcamp. Proficient in
+                    HTML,
+                    CSS, Javascript, Git, Bootstrap, Logic Pro X, Pixelmator playing the banjo and much more.
+                    Self-learned
+                    front end web development for one year prior to bootcamp for a deeper understanding. Has bachelors
+                    in
+                    English from Temple University.
+                </p>
+
             </div>
         </div>
     </div>
@@ -68,7 +76,10 @@
                 </a>
                 <h7 class="d-block mt-1">
                     Provisions
-                    <small class="text-muted">A date night food and wine pairing app</small>
+                    <small class="text-muted">A date night food and wine pairing app. <a
+                            href="https://github.com/PeterMoDavis/provisions">
+                            <i class="mt-1 repo fab fa-lg fa-github-alt"></i>
+                        </a></small>
                 </h7>
             </div>
 
@@ -82,7 +93,10 @@
                     </a>
                     <h7 class="d-block text-center mt-1">
                         Work Day Scheduler
-                        <small class="text-muted">An app to schedule your day using local storage.</small>
+                        <small class="text-muted">An app to schedule your day using local storage. <a
+                                href="https://github.com/PeterMoDavis/work-day-scheduler">
+                                <i class="mt-1 repo fab fa-lg fa-github-alt"></i>
+                            </a></small>
                     </h7>
                 </div>
                 <div class="col-12 col-md-4">
@@ -93,7 +107,9 @@
                     <h7 class="d-block text-center mt-1">
                         Coding Quiz
                         <small class="text-muted">Pick your brain with a timed coding quiz. Your name will be
-                            saved to the local storage.</small>
+                            saved to the local storage. <a href="https://github.com/PeterMoDavis/coding-quiz-challenge">
+                                <i class="mt-1 repo fab fa-lg fa-github-alt"></i>
+                            </a></i></small>
                     </h7>
 
                 </div>
@@ -104,32 +120,41 @@
                     <div class=" col-12 text-center">
                         <h4 class="border-bottom pb-2 mb-2">Contact Me</h4>
                     </div>
-                    <div class="d-flex justify-content-center col-md-3">
-                        <span>555-555-5555</span>
+                    <div class="d-flex justify-content-center mt-3 col-md-3">
+                        <span class="contacts">555-555-5555</span>
                     </div>
-                    <div class=" d-flex justify-content-center col-md-3">
-                        <a href="mailto: pmodavis.webdev@gmail.com">Email</a>
+                    <div class=" d-flex justify-content-center mt-3 col-md-3">
+                        <a href="mailto: pmodavis.webdev@gmail.com"><i
+                                class="contacts fas fa-2x fa-envelope-square clickable-icons"></i></a>
                     </div>
-                    <div class="d-flex justify-content-center  col-md-3">
-                        <a href="https://github.com/PeterMoDavis">Github</a>
+                    <div class="d-flex justify-content-center mt-3  col-md-3">
+                        <a href="https://github.com/PeterMoDavis"><i
+                                class="contacts fab fa-2x fa-github-square clickable-icons"></i></a>
                     </div>
-                    <div class="d-flex justify-content-center  col-md-3">
-                        <a href="https://www.linkedin.com/in/peter-modavis-76346b204/">Linked-In</a>
+                    <div class="d-flex justify-content-center mt-3  col-md-3">
+                        <a href="https://www.linkedin.com/in/peter-modavis-76346b204/"><i
+                                class="contacts fab fa-2x fa-linkedin clickable-icons"></i></a>
                     </div>
                 </div>
-            </div>
-            <div class="container text-center mb-5">
-                <a href="#peter-modavis"><i class="fas fa-crow text-center border-bottom p-2"></i></a>
+
+                <div class="container text-center mb-5">
+                    <a href="#peter-modavis"><i
+                            class="contacts fas fa-crow text-center border-bottom p-2 mt-5 clickable-icons"></i><span
+                            id="home" class="contacts clickable-icons">home</span></a>
+
+                </div>
 
             </div>
-
         </div>
-    </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+            crossorigin="anonymous"></script>
+        <script src="assets/js/index.js"></script>
+
 </body>
 
 </html>
