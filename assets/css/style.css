@@ -36,7 +36,7 @@ a img {
 a img:hover {
   filter: brightness(100%);
 }
-
+/*  */
 .clickable-icons {
   color: black;
   transition: filter 0.5s;
